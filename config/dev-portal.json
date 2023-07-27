@@ -1,4 +1,14 @@
 {
   "$schema": "https://cdn.zuplo.com/schemas/dev-portal.json",
-  "enableAuthentication": true
+  "enableAuthentication": true,
+  "authentication": {
+    "provider": "auth0",
+    "authority": "https://josh-demo.us.auth0.com/",
+    "jwksUrl": "https://josh-demo.us.auth0.com/.well-known/jwks.json",
+    "devPortalClient": {
+      "clientId": "o04O4CoA7Q6M6SljMPouN1tnT0mZ9fv6",
+      "audience": "https://test-dev-portal/"
+    }
+  },
+  "generateExamples": true
 }
