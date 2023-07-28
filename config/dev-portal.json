@@ -6,7 +6,7 @@
     "authority": "https://josh-demo.us.auth0.com/",
     "jwksUrl": "https://josh-demo.us.auth0.com/.well-known/jwks.json",
     "devPortalClient": {
-      "clientId": "o04O4CoA7Q6M6SljMPouN1tnT0mZ9fv6",
+      "clientId": "jCLWoBMlQ6rzS0XbTSaayU81H7r5qFVc",
       "audience": "https://test-dev-portal/"
     }
   },
